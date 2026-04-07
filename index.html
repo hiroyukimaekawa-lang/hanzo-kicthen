@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANZO KITCHEN | 磯子・杉田の彩り野菜イタリアン</title>
+    <meta name="description" content="京急杉田駅徒歩3分。地元で採れた新鮮な野菜をたっぷり使ったイタリアン。お昼は賑やかに、夜は自然派ワインと共に。">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="HANZO KITCHEN">
+        </div>
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="#concept">CONCEPT</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#access">ACCESS</a></li>
+                <li><a href="https://www.tablecheck.com/ja/hanzo-kitchen" target="_blank" class="nav-res">RESERVATION</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-slider">
+                <div class="hero-slide active" style="background-image: url('img/line_oa_chat_260407_130600_group_2.jpg');"></div>
+                <div class="hero-slide" style="background-image: url('img/line_oa_chat_260407_130600_group_1.jpg');"></div>
+                <div class="hero-slide" style="background-image: url('img/line_oa_chat_260407_130600_group_0.jpg');"></div>
+            </div>
+            
+            <div class="hero-content">
+                <p class="hero-subtitle">ITALIAN DINING HANZO KITCHEN</p>
+                <h1 class="hero-title">地元野菜と自然派ワインを<br>街の気軽な一軒で</h1>
+                <p class="hero-text">京急杉田駅 徒歩3分<br>心も体も喜ぶ、彩り豊かなイタリアン</p>
+                <div class="hero-btns">
+                    <a href="https://www.tablecheck.com/ja/hanzo-kitchen" target="_blank" class="btn btn-primary">WEB予約</a>
+                    <a href="#concept" class="btn btn-secondary">CONCEPT</a>
+                </div>
+            </div>
+
+            <div class="hero-dots">
+                <span class="dot active" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+            
+            <div class="feature-card reveal">
+                <div class="feature-img">
+                    <img src="img/line_oa_chat_260407_130600_group_0.jpg" alt="Fresh Vegetables">
+                </div>
+                <div class="feature-info">
+                    <h2>地元で採れた新鮮な野菜を<br>たっぷり使って</h2>
+                    <p>お昼は賑やかに、夜は店主セレクトの自然派ワインを片手に、思い思いの時間を。</p>
+                    <div class="feature-details">
+                        <div class="detail-item">
+                            <span class="label">LUNCH</span>
+                            <span class="value">11:30 - 14:00 (Tue-Sat)</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">DINNER</span>
+                            <span class="value">18:00 - 22:30</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="concept" class="section concept reveal">
+            <h2 class="section-title">CONCEPT</h2>
+            <div class="concept-content">
+                <div class="concept-img">
+                    <img src="img/line_oa_chat_260407_130600_group_1.jpg" alt="Atmosphere">
+                </div>
+                <div class="concept-text">
+                    <h3>自分自身を、解放する場所。</h3>
+                    <p>地元で採れた新鮮な野菜をたっぷり使って、心も体も喜ぶイタリアンを仕立てました。<br>
+                    お昼は賑やかに、夜は店主セレクトの自然派ワインを片手に、思い思いの時間を。</p>
+                    <p>幅広い世代の方に親しんでいただける、街の気軽な一軒です。<br>
+                    周りを気にせず、背伸びもせず、自分の心地よさを最優先にできる空間を目指しています。</p>
+                    <div class="catering-box">
+                        <p>ケータリングも承っております</p>
+                        <a href="https://www.chef-colle.com/hanzokitchen/" target="_blank" class="btn btn-secondary">CATERING LIST</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="section menu reveal">
+            <h2 class="section-title">MENU</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-img">
+                        <img src="img/line_oa_chat_260407_130605_group_1.jpg" alt="Napoli Zeppoline">
+                    </div>
+                    <div class="menu-info">
+                        <h4>ナポリ名物 生のりのゼッポリーネ</h4>
+                        <p>発酵させた生地に生のりを混ぜた軽いフリット</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-img">
+                        <img src="img/line_oa_chat_260407_130604_group_2.jpg" alt="Jambon Sec">
+                    </div>
+                    <div class="menu-info">
+                        <h4>フランス産 生ハム ジャンボンセック</h4>
+                        <p>原木の生ハムを薄くスライスしました</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-img">
+                        <img src="img/line_oa_chat_260407_130600_group_0.jpg" alt="Miura Pickles">
+                    </div>
+                    <div class="menu-info">
+                        <h4>三浦野菜のピクルス</h4>
+                        <p>旬の野菜をシンプルに</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-img">
+                        <img src="img/line_oa_chat_260407_130600_group_5.jpg" alt="Carpaccio">
+                    </div>
+                    <div class="menu-info">
+                        <h4>三浦野菜と鮮魚のカルパッチョ</h4>
+                        <p>旬の食材で、季節の味をお楽しみください</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="access" class="section access reveal">
+            <h2 class="section-title">ACCESS</h2>
+            <div class="access-container">
+                <div class="access-info">
+                    <table class="info-table">
+                        <tr>
+                            <th>ADDRESS</th>
+                            <td>〒235-0033 神奈川県横浜市磯子区杉田1−12−26</td>
+                        </tr>
+                        <tr>
+                            <th>PHONE</th>
+                            <td><a href="tel:045-349-2005">045-349-2005</a><br><small style="color: #888;">(15:00〜16:00が繋がりやすいです)</small></td>
+                        </tr>
+                        <tr>
+                            <th>OPEN</th>
+                            <td>
+                                月曜: 18:00 - 22:30<br>
+                                火曜〜土曜: 11:30 - 14:00 / 18:00 - 22:30<br>
+                                <small style="color: #888;">※火曜ランチはお休み</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>CLOSED</th>
+                            <td>日曜日、その他不定休<br><small style="color: #888;">※月曜不定休</small></td>
+                        </tr>
+                        <tr>
+                            <th>ACCESS</th>
+                            <td>
+                                京急杉田駅 徒歩3分<br>
+                                JR新杉田駅 徒歩5分
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>SNS</th>
+                            <td><a href="https://www.instagram.com/miurayasai_no_hanzo_kitchen/" target="_blank">Instagram</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="access-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.3546764510006!2d139.6133033!3d35.3811111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018447baaaaaaaa%3A0xaaaaaaaaaaaaaaaa!2z44CSMjM1LTAwMzMg56We5aWI5bed55yM5qiq5rWc5biC56O-5a2Q5Yy65p2J55Sw77yR4oiS77yR77yS4oiS77yS77yW!5e0!3m2!1sja!2sjp!4v1700000000000!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="img/logo.jpg" alt="HANZO KITCHEN">
+        </div>
+        <div class="footer-contact">
+            <p>hanzo.kitchen.2.15@gmail.com</p>
+        </div>
+        <p class="copyright">&copy; 2026 HANZO KITCHEN. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Hero Slider
+        let currentSlideIndex = 0;
+        const slides = document.querySelectorAll('.hero-slide');
+        const dots = document.querySelectorAll('.dot');
+
+        function showSlide(index) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+            
+            slides[index].classList.add('active');
+            dots[index].classList.add('active');
+            currentSlideIndex = index;
+        }
+
+        function nextSlide() {
+            let next = (currentSlideIndex + 1) % slides.length;
+            showSlide(next);
+        }
+
+        function currentSlide(index) {
+            showSlide(index);
+            resetTimer();
+        }
+
+        let slideInterval = setInterval(nextSlide, 5000);
+
+        function resetTimer() {
+            clearInterval(slideInterval);
+            slideInterval = setInterval(nextSlide, 5000);
+        }
+
+        // Scroll Reveal Animation
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
