@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Noto+Serif+JP:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
     <header class="header">
@@ -21,25 +25,35 @@
                 <li><a href="#concept">CONCEPT</a></li>
                 <li><a href="#menu">MENU</a></li>
                 <li><a href="#access">ACCESS</a></li>
-                <li><a href="https://www.tablecheck.com/ja/hanzo-kitchen" target="_blank" class="nav-res">RESERVATION</a></li>
+                <li><a href="https://www.tablecheck.com/ja/hanzo-kitchen" target="_blank"
+                        class="nav-res">RESERVATION</a></li>
             </ul>
         </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-label="メニューを開く">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </header>
 
     <main>
         <section class="hero">
             <div class="hero-slider">
-                <div class="hero-slide active" style="background-image: url('img/line_oa_chat_260407_130600_group_2.jpg');"></div>
-                <div class="hero-slide" style="background-image: url('img/line_oa_chat_260407_130600_group_1.jpg');"></div>
-                <div class="hero-slide" style="background-image: url('img/line_oa_chat_260407_130600_group_0.jpg');"></div>
+                <div class="hero-slide active"
+                    style="background-image: url('img/line_oa_chat_260407_130600_group_2.jpg');"></div>
+                <div class="hero-slide" style="background-image: url('img/line_oa_chat_260407_130600_group_1.jpg');">
+                </div>
+                <div class="hero-slide" style="background-image: url('img/line_oa_chat_260407_130600_group_0.jpg');">
+                </div>
             </div>
-            
+
             <div class="hero-content">
                 <p class="hero-subtitle">ITALIAN DINING HANZO KITCHEN</p>
                 <h1 class="hero-title">地元野菜と自然派ワインを<br>街の気軽な一軒で</h1>
                 <p class="hero-text">京急杉田駅 徒歩3分<br>心も体も喜ぶ、彩り豊かなイタリアン</p>
                 <div class="hero-btns">
-                    <a href="https://www.tablecheck.com/ja/hanzo-kitchen" target="_blank" class="btn btn-primary">WEB予約</a>
+                    <a href="https://www.tablecheck.com/ja/hanzo-kitchen" target="_blank"
+                        class="btn btn-primary">WEB予約</a>
                     <a href="#concept" class="btn btn-secondary">CONCEPT</a>
                 </div>
             </div>
@@ -49,26 +63,8 @@
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
             </div>
-            
-            <div class="feature-card reveal">
-                <div class="feature-img">
-                    <img src="img/line_oa_chat_260407_130600_group_0.jpg" alt="Fresh Vegetables">
-                </div>
-                <div class="feature-info">
-                    <h2>地元で採れた新鮮な野菜を<br>たっぷり使って</h2>
-                    <p>お昼は賑やかに、夜は店主セレクトの自然派ワインを片手に、思い思いの時間を。</p>
-                    <div class="feature-details">
-                        <div class="detail-item">
-                            <span class="label">LUNCH</span>
-                            <span class="value">11:30 - 14:00 (Tue-Sat)</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="label">DINNER</span>
-                            <span class="value">18:00 - 22:30</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+
         </section>
 
         <section id="concept" class="section concept reveal">
@@ -80,13 +76,16 @@
                 <div class="concept-text">
                     <h3>自分自身を、解放する場所。</h3>
                     <p>地元で採れた新鮮な野菜をたっぷり使って、心も体も喜ぶイタリアンを仕立てました。<br>
-                    お昼は賑やかに、夜は店主セレクトの自然派ワインを片手に、思い思いの時間を。</p>
+                        お昼は賑やかに、夜は店主セレクトの自然派ワインを片手に、思い思いの時間を。</p>
                     <p>幅広い世代の方に親しんでいただける、街の気軽な一軒です。<br>
-                    周りを気にせず、背伸びもせず、自分の心地よさを最優先にできる空間を目指しています。</p>
-                    <div class="catering-box">
-                        <p>ケータリングも承っております</p>
-                        <a href="https://www.chef-colle.com/hanzokitchen/" target="_blank" class="btn btn-secondary">CATERING LIST</a>
-                    </div>
+                        周りを気にせず、背伸びもせず、自分の心地よさを最優先にできる空間を目指しています。</p>
+                </div>
+            </div>
+            <div class="catering-box-wrapper reveal">
+                <div class="catering-box">
+                    <p>ケータリングも承っております</p>
+                    <a href="https://www.chef-colle.com/hanzokitchen/" target="_blank"
+                        class="btn btn-secondary">CATERING LIST</a>
                 </div>
             </div>
         </section>
@@ -114,20 +113,39 @@
                 </div>
                 <div class="menu-item">
                     <div class="menu-img">
-                        <img src="img/line_oa_chat_260407_130600_group_0.jpg" alt="Miura Pickles">
-                    </div>
-                    <div class="menu-info">
-                        <h4>三浦野菜のピクルス</h4>
-                        <p>旬の野菜をシンプルに</p>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-img">
                         <img src="img/line_oa_chat_260407_130600_group_5.jpg" alt="Carpaccio">
                     </div>
                     <div class="menu-info">
                         <h4>三浦野菜と鮮魚のカルパッチョ</h4>
                         <p>旬の食材で、季節の味をお楽しみください</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section gallery reveal">
+            <h2 class="section-title">GALLERY</h2>
+            <div class="gallery-slider">
+                <div class="gallery-track">
+                    <div class="gallery-slide"><img src="img/line_oa_chat_260407_130600_group_2.jpg" alt="Gallery 1">
+                    </div>
+                    <div class="gallery-slide"><img src="img/line_oa_chat_260407_130600_group_3.jpg" alt="Gallery 2">
+                    </div>
+                    <div class="gallery-slide"><img src="img/line_oa_chat_260407_130600_group_4.jpg" alt="Gallery 3">
+                    </div>
+                    <div class="gallery-slide"><img src="img/line_oa_chat_260407_130600_group_5.jpg" alt="Gallery 4">
+                    </div>
+                    <div class="gallery-slide"><img src="img/line_oa_chat_260407_130600_group_6.jpg" alt="Gallery 5">
+                    </div>
+                    <div class="gallery-slide"><img src="img/line_oa_chat_260407_130604_group_0.jpg" alt="Gallery 6">
+                    </div>
+                    <div class="gallery-slide"><img src="img/line_oa_chat_260407_130604_group_1.jpg" alt="Gallery 7">
+                    </div>
+                    <div class="gallery-slide"><img src="img/line_oa_chat_260407_130604_group_2.jpg" alt="Gallery 8">
+                    </div>
+                    <div class="gallery-slide"><img src="img/line_oa_chat_260407_130604_group_3.jpg" alt="Gallery 9">
+                    </div>
+                    <div class="gallery-slide"><img src="img/line_oa_chat_260407_130604_group_4.jpg" alt="Gallery 10">
                     </div>
                 </div>
             </div>
@@ -144,7 +162,8 @@
                         </tr>
                         <tr>
                             <th>PHONE</th>
-                            <td><a href="tel:045-349-2005">045-349-2005</a><br><small style="color: #888;">(15:00〜16:00が繋がりやすいです)</small></td>
+                            <td><a href="tel:045-349-2005">045-349-2005</a><br><small
+                                    style="color: #888;">(15:00〜16:00が繋がりやすいです)</small></td>
                         </tr>
                         <tr>
                             <th>OPEN</th>
@@ -167,25 +186,48 @@
                         </tr>
                         <tr>
                             <th>SNS</th>
-                            <td><a href="https://www.instagram.com/miurayasai_no_hanzo_kitchen/" target="_blank">Instagram</a></td>
+                            <td><a href="https://www.instagram.com/miurayasai_no_hanzo_kitchen/"
+                                    target="_blank">Instagram</a></td>
                         </tr>
                     </table>
                 </div>
                 <div class="access-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.3546764510006!2d139.6133033!3d35.3811111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018447baaaaaaaa%3A0xaaaaaaaaaaaaaaaa!2z44CSMjM1LTAwMzMg56We5aWI5bed55yM5qiq5rWc5biC56O-5a2Q5Yy65p2J55Sw77yR4oiS77yR77yS4oiS77yS77yW!5e0!3m2!1sja!2sjp!4v1700000000000!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.849965108913!2d139.6181628!3d35.384177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018432ef5068ef1%3A0xea8dc7b45dfc6995!2sHANZO%20KITCHEN!5e0!3m2!1sja!2sjp!4v1775799221019!5m2!1sja!2sjp"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="footer-logo">
-            <img src="img/logo.jpg" alt="HANZO KITCHEN">
+        <div class="footer-links">
+            <div class="footer-sns">
+                <a href="https://www.tablecheck.com/ja/hanzo-kitchen" target="_blank" class="footer-link-item">
+                    <span class="link-label">RESERVATION</span>
+                    <span class="link-title">予約はこちら</span>
+                </a>
+                <a href="https://www.instagram.com/miurayasai_no_hanzo_kitchen/" target="_blank"
+                    class="footer-link-item">
+                    <span class="link-label">INSTAGRAM</span>
+                    <span class="link-title">最新情報・お料理</span>
+                </a>
+                <a href="https://www.chef-colle.com/hanzokitchen/" target="_blank" class="footer-link-item">
+                    <span class="link-label">CATERING</span>
+                    <span class="link-title">ケータリングはこちら</span>
+                </a>
+            </div>
         </div>
-        <div class="footer-contact">
-            <p>hanzo.kitchen.2.15@gmail.com</p>
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <img src="img/logo.jpg" alt="HANZO KITCHEN">
+            </div>
+            <div class="footer-contact">
+                <p>hanzo.kitchen.2.15@gmail.com</p>
+            </div>
+            <p class="copyright">&copy; 2026 HANZO KITCHEN. All Rights Reserved.</p>
         </div>
-        <p class="copyright">&copy; 2026 HANZO KITCHEN. All Rights Reserved.</p>
     </footer>
 
     <script>
@@ -197,7 +239,7 @@
         function showSlide(index) {
             slides.forEach(slide => slide.classList.remove('active'));
             dots.forEach(dot => dot.classList.remove('active'));
-            
+
             slides[index].classList.add('active');
             dots[index].classList.add('active');
             currentSlideIndex = index;
@@ -234,6 +276,65 @@
         }, observerOptions);
 
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // Gallery Slider
+        const galleryTrack = document.querySelector('.gallery-track');
+        if (galleryTrack) {
+            const gallerySlides = Array.from(galleryTrack.children);
+
+            // Clone slides to create infinite effect
+            gallerySlides.forEach(slide => {
+                const clone = slide.cloneNode(true);
+                galleryTrack.appendChild(clone);
+            });
+
+            let scrollAmount = 0;
+            const scrollSpeed = 0.8; // Speed of scrolling
+
+            function autoScroll() {
+                scrollAmount -= scrollSpeed;
+                const totalWidth = galleryTrack.scrollWidth / 2;
+
+                if (Math.abs(scrollAmount) >= totalWidth) {
+                    scrollAmount = 0;
+                }
+
+                galleryTrack.style.transform = `translateX(${scrollAmount}px)`;
+                requestAnimationFrame(autoScroll);
+            }
+
+            autoScroll();
+
+            // Pause on hover
+            let animationId;
+            const startAnimation = () => { animationId = requestAnimationFrame(autoScroll); };
+            const stopAnimation = () => { cancelAnimationFrame(animationId); };
+
+            // For now, simple continuous scroll is fine. 
+            // If the user wants pause on hover, we can add listeners.
+        }
+
+        // Mobile Menu Toggle
+        const navToggle = document.getElementById('nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        const navItems = document.querySelectorAll('.nav-links a');
+
+        if (navToggle && navLinks) {
+            navToggle.addEventListener('click', () => {
+                navToggle.classList.toggle('active');
+                navLinks.classList.toggle('active');
+                document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
+            });
+
+            navItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    navToggle.classList.remove('active');
+                    navLinks.classList.remove('active');
+                    document.body.style.overflow = '';
+                });
+            });
+        }
     </script>
 </body>
+
 </html>
